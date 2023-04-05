@@ -12,3 +12,6 @@ print("Welcome to the password creator program")
 # Question 3:
 # - How many numbers
 
+question1 = "How many letters would you like in your password?"
+question2 = "How many symbols would you like?"
+question3 = "How many numbers would you like?"
