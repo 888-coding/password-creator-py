@@ -1,5 +1,8 @@
 # App Password Creator 
 
+import random
+
+
 print("Welcome to the password creator program")
 print("---------------------------------------")
 
@@ -17,7 +20,7 @@ question1 = "How many letters would you like in your password?\n"
 question2 = "How many symbols would you like?\n"
 question3 = "How many numbers would you like?\n"
 
-answer1 = input(question1)
-answer2 = input(question2)
-answer3 = input(question3)
+nr_letters = int(input(question1))
+nr_symbols = int(input(question2))
+nr_numbers = int(input(question3))
 
